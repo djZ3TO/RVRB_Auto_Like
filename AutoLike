@@ -1,0 +1,6 @@
+setInterval(() => {
+  const element = document.querySelector('div.action[title="Vote Up"][disabled="false"]');
+  if (!element.classList.contains("active")) {
+    element.click();
+  }
+}, 300);
